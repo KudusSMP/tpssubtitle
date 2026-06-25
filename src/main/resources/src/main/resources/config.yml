@@ -1,3 +1,0 @@
-update-interval-ticks: 20
-allow-op: true
-subtitle-format: "<gray>TPS: <green>{tps}</green> <dark_gray>|</dark_gray> <gray>MSPT: <yellow>{mspt}</yellow> <dark_gray>|</dark_gray> <gray>Ping: <aqua>{ping}ms</aqua>"
