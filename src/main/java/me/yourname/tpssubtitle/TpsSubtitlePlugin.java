@@ -58,8 +58,8 @@ public final class TpsSubtitlePlugin extends JavaPlugin {
                     .replace("{mspt}", fmt1(mspt))
                     .replace("{ping}", Integer.toString(ping));
 
-            Component subtitle = mm.deserialize(msg);
-            p.showTitle(net.kyori.adventure.title.Title.title(Component.empty(), subtitle));
+            Component bar = mm.deserialize(msg);
+            p.sendActionBar(bar);
         }
     }
 
