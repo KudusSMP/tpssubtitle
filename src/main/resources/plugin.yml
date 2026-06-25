@@ -1,0 +1,9 @@
+name: TpsSubtitle
+version: 1.0.0
+main: me.yourname.tpssubtitle.TpsSubtitlePlugin
+api-version: "1.21"
+author: you
+permissions:
+  tpssubtitle.view:
+    description: Allows seeing TPS/MSPT/Ping subtitle
+    default: op
