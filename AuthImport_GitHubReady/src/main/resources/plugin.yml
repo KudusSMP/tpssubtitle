@@ -1,0 +1,9 @@
+name: AuthImport
+version: 1.0
+main: me.authimport.AuthImportPlugin
+api-version: "1.21"
+commands:
+  login:
+    usage: /login <password>
+  register:
+    usage: /register <password>
